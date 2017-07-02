@@ -1,0 +1,234 @@
+#u-all {
+  width: 100%; }
+  #u-all .u-header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(img2/header-cities.jpg) no-repeat center;
+    background-size: cover; }
+
+#u-bgc {
+  width: 100%;
+  height: 600px;
+  background: rgba(224, 80, 61, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#u-bgc nav {
+  width: 1000px;
+  margin: 0 auto; }
+
+#u-bgc nav h1 a {
+  float: left;
+  display: block;
+  width: 160px;
+  height: 50px;
+  text-indent: -9999px;
+  background: url(img/mobai-logo.png) no-repeat center center;
+  background-size: 80%; }
+
+#u-bgc nav ul {
+  margin-top: 10px;
+  width: 420px;
+  float: right; }
+
+#u-bgc nav ul li {
+  width: 60px;
+  float: left; }
+  #u-bgc nav ul li a {
+    color: #fff; }
+
+#u-bgc h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  position: absolute;
+  top: 200px;
+  left: 715px;
+  width: 430px; }
+
+#u-bgc h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  position: absolute;
+  top: 280px;
+  left: 615px;
+  width: 600px; }
+
+#u-bottom-all {
+  width: 100%;
+  background-color: #f0f2f5;
+  padding-top: 20px; }
+
+#u-car {
+  width: 1400px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: -70px;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  #u-car .u-car-left {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 80px;
+    padding-left: 40px; }
+    #u-car .u-car-left h3 {
+      font-size: 3em;
+      color: #e0503d;
+      font-weight: bold;
+      margin-top: 150px; }
+    #u-car .u-car-left p {
+      font-size: 20px;
+      display: block;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px; }
+  #u-car .u-car-right {
+    width: 700px;
+    height: 450px;
+    background: url(img2/lite1.jpg) center;
+    background-size: cover; }
+
+.u-bike {
+  width: 100%;
+  height: 700px;
+  background-color: cyan;
+  background: url(img2/product-02.jpg) top no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -50px; }
+  .u-bike h2 {
+    width: 500px;
+    height: 200px;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    text-align: center; }
+
+#u-down-all {
+  width: 100%;
+  border-bottom: 1px solid #ccc; }
+
+#u-sfooter {
+  width: 1200px;
+  margin: 40px auto;
+  display: flex; }
+  #u-sfooter .u-small {
+    margin-top: 25px;
+    height: 100px;
+    box-sizing: border-box;
+    flex: 1; }
+    #u-sfooter .u-small .u-sicon {
+      width: 60px;
+      height: 50px;
+      background: url(img/icon-wechat.png) no-repeat center;
+      background-size: contain;
+      float: left; }
+    #u-sfooter .u-small .u-stext {
+      margin-left: 75px; }
+      #u-sfooter .u-small .u-stext h4 {
+        font-size: 20px; }
+      #u-sfooter .u-small .u-stext p {
+        font-size: 20px; }
+  #u-sfooter .u-red {
+    margin-top: 25px;
+    box-sizing: border-box;
+    flex: 1; }
+    #u-sfooter .u-red .u-sicon {
+      width: 60px;
+      height: 50px;
+      background: url(img/icon-rp.png) no-repeat center;
+      background-size: contain;
+      float: left; }
+    #u-sfooter .u-red .u-stext {
+      margin-left: 75px; }
+      #u-sfooter .u-red .u-stext h4 {
+        font-size: 20px; }
+      #u-sfooter .u-red .u-stext p {
+        font-size: 20px; }
+  #u-sfooter .u-xin {
+    margin-top: 25px;
+    box-sizing: border-box;
+    flex: 1; }
+    #u-sfooter .u-xin .u-sicon {
+      width: 60px;
+      height: 50px;
+      background: url(img/icon-xinyong.png) no-repeat center;
+      background-size: contain;
+      float: left; }
+    #u-sfooter .u-xin .u-stext {
+      margin-left: 75px; }
+      #u-sfooter .u-xin .u-stext h4 {
+        font-size: 20px; }
+      #u-sfooter .u-xin .u-stext p {
+        font-size: 20px; }
+
+footer {
+  width: 1300px;
+  height: 300px;
+  margin: 20px auto;
+  display: flex;
+  margin-bottom: 80px; }
+  footer #u-footer-lfet {
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 40px; }
+    footer #u-footer-lfet li {
+      font-size: 18px;
+      margin: 5px; }
+    footer #u-footer-lfet .u-sul-li {
+      font-size: 16px;
+      color: #999; }
+      footer #u-footer-lfet .u-sul-li img {
+        width: 20px;
+        height: 20px; }
+  footer #u-footer-right {
+    margin-top: 80px;
+    margin-left: 80px; }
+    footer #u-footer-right h3 {
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 20px; }
+    footer #u-footer-right li {
+      font-size: 20px;
+      margin-top: 15px; }
+    footer #u-footer-right .u-right-first {
+      width: 150px;
+      height: 150px;
+      box-sizing: border-box;
+      margin-left: 30px;
+      float: left; }
+    footer #u-footer-right .u-right-second {
+      width: 150px;
+      height: 150px;
+      margin-left: 30px;
+      box-sizing: border-box;
+      float: left; }
+    footer #u-footer-right .u-right-third {
+      width: 150px;
+      height: 150px;
+      margin-left: 30px;
+      box-sizing: border-box;
+      float: left; }
+    footer #u-footer-right .u-right-wechat {
+      width: 150px;
+      height: 150px;
+      margin-left: 30px;
+      box-sizing: border-box;
+      float: left; }
+
+/*# sourceMappingURL=qing.css.map */
